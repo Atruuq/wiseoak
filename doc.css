@@ -1,0 +1,147 @@
+* {	margin: 0px;
+	padding: 0px; 	}
+
+body	{
+
+}
+
+nav {	background-image: url(images/Background.png);
+		height: 70vh;	
+		width: 95%;
+		margin: auto;
+		background-position: center;
+		background-size: cover;
+		position-relative;
+		border: red;
+						}	
+
+
+							
+
+.navbar a	{	list-style: none;
+				color: #9D93F5;
+				border-right: 2px solid blue;
+				margin-top: 10px;
+				padding-right: 7px;	
+				text-decoration:none;	}
+
+.navbar	{	display: flex;
+			justify-content: flex-end;
+			gap: 10px;
+			color: white;
+			margin: 20px;
+			padding: 10px 20px 10px 20px;
+												}
+.navbar  a::after{	content: '';
+					width: 0%;
+					height: 2px;
+					background: #4EF64B;
+					display: block;
+					margin: auto;
+					transition: 0.3s;	
+											}
+
+.navbar  a:hover::after {width: 100%;}
+
+.container1	{	display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 50px;
+				position: absolute;
+				top: 150px;
+				left: 300px;
+				gap: 30px;
+										}
+
+.container1 a	{		color: #A1DAE6;
+						text-decoration: none;
+						opacity: 50%;
+					}
+
+.container1 a:hover{color: #81F793;}
+
+.logo		{	border-right: 3px solid white;
+				padding: 0px 15px 0px 0px;
+
+			}
+
+.tex-box	{	text-align: center;
+			}
+
+.tex-box  h1	{	font-family: Bauhaus-Heavy;
+				color: whitesmoke;
+				font-size: 60px;
+				font-weight: bold;
+
+			}
+
+					
+.tex-box  p {	font-size: 15px;
+				font-style: italic;
+				color: #4EF64B;
+				border: 0px;
+
+			}
+
+.tex-box a:hover
+
+.tex-box  a:hover{	color: #4EF64B;}
+
+.rectangle1 { width: 400px;
+			height: 3px;
+			background: blueviolet;
+			}
+.rectangle {	height: 100px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 30px;
+			}
+
+.the-team	{font-size: 30px;}
+
+.highlight-bar{ display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				padding: 0px 0px px 0px ;
+				margin: 20px 200px 20px 200px;
+				background: #CBF7CA;
+				}
+
+.rectangle2 { width: 6px;
+			height: 100px;
+			background: #5D7D5B;
+			padding: 0px 100px px 100px ;
+			}
+
+.wc		{	text-align: center; 
+			font-size:20px; 
+			color:#181349; 
+			margin: 0px 0px 10px 0px; 
+		}
+
+.wco	{	width:880px; text-align: center; font-size:17px; color:#454545;	}
+
+.footer		{	
+				height: 10vh;
+				width:90%;
+				border: ;
+				margin: auto;
+			}
+
+.ionicon {	border:1px solid black;
+	border-radius: 100%;
+	padding: 5px;
+			background:white;
+			color:black;
+			width: 25px; 
+
+			}
+
+.footer	{	display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 15px;
+			}
+
